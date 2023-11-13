@@ -166,17 +166,6 @@ while ($row = mysqli_fetch_assoc($res)) {
       if ($page == 'checkout_details') {
         include('detail_cart.php');
       }
-      if ($page == 'buynow') {
-        include('buynow.php');
-      }
-      if ($page == 'us_getOrder') {
-        include('us_getOrder.php');
-      }
-      if ($page == 'view_invoice') {
-        echo "<div style='width:60%;margin:1rem auto 1rem;'>";
-        include('view_invoice.php');
-        echo "</div>";
-      }
       if ($page == 'searchPage') {
         include('searchPage.php');
       }
